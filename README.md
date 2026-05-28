@@ -101,30 +101,32 @@ Orchestrator 只做调度，不做具体工作。
 
 ---
 
-## 示例：数据分析团队
+## 示例：软件研发团队
 
-**需求**：分析 CSV 文件，输出文字报告
+**需求**：实现一个新功能，包含开发、审查和测试
 
 **Skill 生成并部署的团队**：
 
 | 角色 | Profile 名 | 职责 |
 |------|-----------|------|
-| 数据分析主管 | `orchestrator_data_analysis` | 调度、汇总、交付 |
-| Data Analyst | `analyst` | 数据加载、清洗、分析 |
-| Insight Writer | `writer` | 撰写文字报告 |
+| 研发主管 | `orchestrator_dev` | 调度、汇总、交付 |
+| Developer | `developer` | 功能开发、代码实现 |
+| Code Reviewer | `reviewer` | 代码审查、质量把关 |
+| QA Engineer | `qa` | 测试用例、验证功能 |
 
 **部署完成后直接启动**：
 
 ```bash
-orchestrator_data_analysis chat
+orchestrator_dev chat
 ```
 
 **工作流**：
 ```
-用户 → 数据分析主管：分析这份CSV
-     → analyst（terminal 执行）：加载数据、清洗、分析
-     → writer（terminal 执行）：写报告
-     → 数据分析主管 → 用户：交付报告
+用户 → 研发主管：实现这个功能
+     → developer（terminal 执行）：编写代码
+     → reviewer（terminal 执行）：审查代码
+     → qa（terminal 执行）：测试验证
+     → 研发主管 → 用户：交付功能
 ```
 
 ---
