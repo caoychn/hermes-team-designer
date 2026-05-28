@@ -1,6 +1,6 @@
-# Agent Team Designer 使用指南
+# Hermes Team Designer 使用指南
 
-## 什么是 Agent Team Designer
+## 什么是 Hermes Team Designer
 
 一个 Hermes Skill，根据任务需求设计多 Agent 协作团队，并自动将团队部署到 Hermes profiles。
 
