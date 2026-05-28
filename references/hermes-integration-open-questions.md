@@ -6,7 +6,7 @@
 
 ## 问题：设计好的Agent团队如何在Hermes中真正运行？
 
-agent-team-designer skill可以生成：
+hermes-team-designer skill可以生成：
 - 每个Agent的 soul.md（人格定义）
 - team_workflow.md（协作流程）
 - 完整的团队规格文档
@@ -35,4 +35,4 @@ agent-team-designer skill可以生成：
 ## 相关文件
 
 - 设计输出：~/.hermes/agent-teams/
-- 团队设计skill：~/.hermes/skills/agent-team-designer/SKILL.md
+- 团队设计skill：~/.hermes/skills/hermes-team-designer/SKILL.md
